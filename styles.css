@@ -1,0 +1,172 @@
+:root {
+    --color-primary: #AC11B3;
+    --color-secondary: #FFCA1A;
+
+    --color-primary-light: #FFEFBB;
+    --color-scondary-light: #FCC1FF;
+
+    --color-primary-dark: #4F0053;
+    --color-secondary-dark: #967300;
+
+    --color-white: #fff;
+    
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif
+}
+
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h2{
+
+}
+
+img{
+    height: 100px;
+}
+
+h1, p, button {
+    margin: 0;
+}
+
+.btn {
+    height: 60px;
+    width: 25%;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.container-fluid {
+
+}
+
+.leal-logo {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 4.5rem;
+    height: 2.95rem;
+}
+
+.close-button-x {
+    padding-left: 1100px;
+    font-size: 40px;
+}
+
+#merchant-section{
+    background-color: white;
+    height: 50vh;
+    text-align: center;  
+    padding: 7% 15%;
+    padding-top: 9vh;
+}
+
+.merchant-content {
+    padding: 0 15%;
+}
+
+#merchant-section h1 {
+    color: var(--color-primary);
+}
+
+#merchant-section button{
+    color: white;
+    background-color: var(--color-primary);
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#merchant-section p {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+#user-section {
+    background-color: var(--color-primary);
+    margin-top:5vh;
+    
+    /* padding-top:5vh; */
+    padding: 5vh 3%;
+    height: 45vh;
+    width: 60vw;
+    text-align: center;  
+
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-style: solid;
+    border-color: var(--color-primary);
+    border-width: 5px 5px 0;
+    
+    
+
+    background-color: #f2dbf3;
+    
+}
+
+#user-section h1{
+    color: var(--color-primary);
+}
+
+#user-section p{
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+#user-section button{
+    color: white;
+    background-color: var(--color-secondary);
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+/* -----------FOOTER----------- */
+
+#footer {
+    text-align: center;
+    padding: 1% 15% 2%;
+
+}
+
+.footer-media {
+    margin: 0 1%;
+}
+
+.footer-tag {
+    margin-top: 3%;
+    
+}
