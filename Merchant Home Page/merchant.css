@@ -104,6 +104,7 @@ video {
     padding: 0;
     margin-top: 0;
     background-color: rgba(231, 25, 25, 0.981);
+    background-color: white;
     width: 100vw;
     height: 10vh;
     position: fixed;
