@@ -406,10 +406,8 @@ width: 5rem;
 
 }
 
-
-
 #partners .partner-list {
-    padding: 0 100px;
+    padding: 0 50px;
     margin-top: 50px;
 }
 
@@ -424,13 +422,10 @@ width: 5rem;
 
 #partners .partner-item div{
     
-    width: 15rem;
+    /* width: 15rem; */
     margin-top: 10px;
     /* border-style: solid; */
     text-align: center;
-    
-    
-
     margin: 0 auto;  
 }
 
@@ -634,5 +629,24 @@ width: 5rem;
 @media (max-width: 501px){
     #pricing button {
         font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width: 480px){
+    .container-fluid{
+        padding: 7% 7%;
+    }
+    
+    h1,h2{
+        font-size: 2rem !important;
+        /* text-align: start; */
+    }
+
+    p{
+        font-size: 1rem !important; 
+    }
+
+    .card-item{
+        padding: 30px 15px;
     }
 }
