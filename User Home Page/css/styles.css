@@ -121,6 +121,10 @@ video {
     z-index: 1;
   }
 
+.navbar-collapse {
+    background-color: white !important;
+}
+
 #navbar-example2 .container-fluid{
     padding: 0;
 
