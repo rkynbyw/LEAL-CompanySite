@@ -246,7 +246,7 @@ video {
     margin-bottom: 2rem;
     font-size: 3.25rem;
     letter-spacing: 2px;
-    line-height: 1.5;
+    
 }
 
 #title h1 #hastag {
@@ -640,6 +640,7 @@ width: 5rem;
     h1,h2{
         font-size: 2rem !important;
         /* text-align: start; */
+        line-height: 1.2;
     }
 
     p{
